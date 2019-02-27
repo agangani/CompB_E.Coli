@@ -3,7 +3,7 @@
 Previously, researchers have revisted sequencing of the E.coli K12 strain as it has evolved over time since when the whole genome was first sequenced. The purpose of this project is to resequence the E.coli K12 genome to see how it has evolved over time.
 
 Here are the following tools you will need to have installed in order to successfully run the code on python3:
-1.SPAdes v3.11.1
+ 1.SPAdes v3.11.1
 2.prokka 
 3.tophat2 v2.1.1
 4.cufflinks v2.2.1
