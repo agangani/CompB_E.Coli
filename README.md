@@ -27,6 +27,9 @@ To download:
 2. python3 E.coli_K12_Reseq.py
 
 
+Next Step:
+The next step after obtaining the transcripts.gtf file from the final command is to parse through the file to output the seqname, start and end strand, and FPKM for each record into a file called "Option1.fpkm"
+
 
 
 
