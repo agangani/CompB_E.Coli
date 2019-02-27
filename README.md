@@ -28,7 +28,7 @@ To download:
 
 
 Next Step:
-The next step after obtaining the transcripts.gtf file from the final command is to parse through the file to output the seqname, start and end strand, and FPKM for each record into a file called "Option1.fpkm"
+ The next step after obtaining the transcripts.gtf file from the final command is to parse through the file to output the seqname, start and end strand, and FPKM for each record into a file called "Option1.fpkm"
 
 
 
