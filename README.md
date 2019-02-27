@@ -12,3 +12,6 @@ Here are the following tools you will need to have installed in order to success
 -cufflinks
 -SRA-tool kit
 
+
+Author: Anusha Gangani
+
