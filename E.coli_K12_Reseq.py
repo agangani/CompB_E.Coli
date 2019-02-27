@@ -24,6 +24,7 @@ os.chdir(current_direct)
 
 #The os.system allows you to use the wget command to retrieve the illumina sequence reads from NCBI through an sra file.  
 #The specific sequence is a single-end illumina read
+
 os.system('wget ftp://ftp.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByRun/sra/SRR/SRR818/SRR8185310/SRR8185310.sra')
 #Output: SRR8185310.sra
 #This sra file is found in the OptionA_Anusha_Gangani folder
