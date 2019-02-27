@@ -14,6 +14,9 @@ In general, the python3 code is a step by step guide to retrieving the required 
 
 According to the code, all the files will located in OptionA_Anusha_Gangani, however, that can be modified in the code to fit the user's preferred folder name. In addition, there is an OptionA.log file under the OptionA_Anusha_Gangani directory where the user can find the summary of outputs from the general steps. 
 
+To install:
+git clone: 
+
 
 
 
