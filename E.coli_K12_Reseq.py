@@ -40,6 +40,7 @@ os.system('fastq-dump -I SRR8185310.sra')
 #-s SRR8185310.fastq is the fastq file we 
 #want to assemble and the -s specifies that the sequence is a single end read
 #and -o provides the output directory, which is the variable that the path is set to so the output will dump 
+
 os.system('spades -k 55,77,99,127 -t 5 --only-assembler -s SRR8185310.fastq -o ' + current_direct)
 #Output: Assembling finished. Used k-mer sizes: 55, 77, 99
 #There are 6 output files retrieved from running SPAdes: contigs.fasta, scaffolds.fasta, assembly_graph.fastg, 
@@ -52,6 +53,7 @@ print(spades)
 #Allows the user to write the SPAdes command into the log file with the 'w+'. This is also the first time in the code where the log file is created
 #under the OptionA_First_Lastname folder. Once it outputs the SPAdes command into the log file, it ensures 
 #that future items written in the same log file print on a new line
+
 log_file = open(current_direct + 'OptionA.log', 'w+')
 for x in range(1):
     log_file.write(spades + '\n')
